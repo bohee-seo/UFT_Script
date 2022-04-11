@@ -38,13 +38,12 @@ End If
 Select case datatable.value("device_ostype")
 Case "iOS", "ANDROID"
 	AIUtil("hamburger_menu").Click
-	AIUtil("profile").Click
-	AIUtil.FindTextBlock("Sign out").Click
-	AIUtil.FindTextBlock("Yes").Click
+	' add your script here
+        
+	
 	oDevice.CloseViewer
 Case "Browser"
-	AIUtil("profile").Click
-	AIUtil.FindTextBlock("Sign out").Click
+	' add your script here 
 end Select
 
 
